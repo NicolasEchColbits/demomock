@@ -1,11 +1,26 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"dev_eui": "2122232425010030",
+	"freq": "926900000",
+	"data_rate": {
+		"spreading_factor": "12",
+		"band_width": "125",
+		"coding_rate": "4/5",
+		"dr_index": "5"
+	},
+	"link_gw": "GW_TRES_CRUCES",
+	"gws_in_range": 2,
+	"gws_in_range_statistics": [
+		{
+			"GW_NAME": "GW_TRES_CRUCES",
+			"RSSI": "-115",
+			"SNR": "-11.8",
+			"QUALITY": 2  
+		},
+		{
+			"GW_NAME": "GW_LIMONAR",
+			"RSSI": "-112",
+			"SNR": "-12.5",
+			"QUALITY": 1
+		}
+	]
 }
